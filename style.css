@@ -3,12 +3,12 @@ body, h1, h2, p {
     padding: 0;
 }
 
-#section1 {
-    margin: 0 auto;
+audio {
+    width: 50px;
 }
 
-#section2 {
-    margin: 0 auto;
+audio::-webkit-media-controls {
+    width: 100%;
 }
 
 body {

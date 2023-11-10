@@ -15,12 +15,15 @@
         </ul>
     </nav>
     <main>
+        <div class="description">
+            <p>Below are some generated audio samples from the Longformer Encoder-Decoder model. The input to the model is a combination of source-separated Drums, Bass, Vocals and Other stems with the target stem removed. For example, if the target stem is Drums, then the model is provided with the Bass, Vocals and Other stems and predicts the Drum audio stem. </p>
+        </div>
         <section id="section1">
             <h2>Drums & Other</h2>
             <table align="center">
                 <caption>Temperature</caption>
                 <tr>
-                    <th>Stem</th>
+                    <th>Target Stem</th>
                     <th>0.8</th>
                     <th>0.9</th>
                     <th>1.0</th>
@@ -50,7 +53,7 @@
             <table align="center">
                 <caption>Temperature</caption>
                 <tr>
-                    <th>Stem</th>
+                    <th>Target Stem</th>
                     <th>1.0</th>
                     <th>1.2</th>
                     <th>1.4</th>
